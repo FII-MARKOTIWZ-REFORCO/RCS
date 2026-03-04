@@ -1,23 +1,16 @@
-# TCC
-Otimização de Carteiras de Fundos com métodos de Markowitz e de Aprendizado com Reforço
+# Um Comparativo dos Métodos de Markotiwz e de Aprendizado por Reforço Profundo na Otimização de Carteiras de Fundos Imobiliários
 
-## Resumo
-Este projeto apresenta uma aplicação desenvolvida em Python e Streamlit para comparar dois modelos de otimização de carteiras de fundos imobiliários (FIIs): o clássico modelo de Markowitz e um modelo baseado em Aprendizado por Reforço Profundo (Deep Reinforcement Learning – DRL). A proposta integra fundamentos da Teoria Moderna do Portfólio com técnicas de Inteligência Artificial, avaliando como abordagens adaptativas podem aprimorar a eficiência na alocação de ativos do mercado brasileiro.
+### RESUMO
+A otimização de carteiras tem por objetivo equilibrar riscos e retornos de diferentes ativos compondo uma carteira eficiente sendo essencial para gestão de investimentos. No mercado brasileiro de fundos imobiliários (FIIs), essa é uma tarefa complexa devido à heterogeneidade de liquidez e à influência de fatores macroeconômicos. Este trabalho compara e desenvolve a otimização de carteiras a partir de duas abordagens: o clássico modelo de Markowitz e o Aprendizado Profundo com Reforço (Deep Reinforcement Learning – DRL). São empregados dados históricos de FIIs listados na B3 entre 2020 e 2024, com liquidez mínima de R$ 1 milhão/dia. Os resultados evidenciam a viabilidade da solução de Aprendizado por Reforço Profundo, embora soluções exatas ainda apresentem resultados melhores no curto prazo. 
 
-A ferramenta permite que o usuário defina parâmetros como número de ativos, peso máximo por ativo, taxa livre de risco, retorno-alvo e timesteps de treinamento, executando a otimização em tempo real e exibindo os resultados em forma de tabelas e gráficos interativos. Além da comparação quantitativa, a aplicação oferece uma análise visual das carteiras, métricas de desempenho e rentabilidade acumulada, permitindo explorar de forma prática e intuitiva os conceitos de otimização de portfólio.
+**Palavras-chave**: Otimização de carteiras. Teoria Moderna do Portfólio. Fundos Imobiliários. Inteligência Artificial. Aprendizado por Reforço Profundo.
 
-## Dados Utilizados
-Os dados utilizados no projeto referem-se a fundos de investimento imobiliário (FIIs) listados na B3 – Brasil, Bolsa, Balcão, abrangendo o período de 2020 a 2024. Foram utilizadas duas bases principais:
-- Base Cota Ajustada.csv → contém os valores de cotas ajustados por rendimentos e desdobramentos, utilizada para o cálculo dos retornos diários;
-- Base Cota Mercado.csv → contém as cotações de fechamento de mercado, utilizada para o cálculo das covariâncias e volatilidades.
-Para garantir realismo e representatividade, foram selecionados apenas fundos com média de liquidez diária superior a R$ 1 milhão, de modo a refletir condições de investimento plausíveis no mercado brasileiro.
+### ABSTRACT
+Portfolio optimization aims to balance the risks and returns of different assets by creating an efficient portfolio that is essential for investment management. The Brazilian real estate fund market (FIIs) is a complex task due to the heterogeneity of liquidity and the influence of macroeconomic factors. This work compares and develops portfolio optimization based on two approaches: the classic Markowitz model and Deep Reinforcement Learning (DRL). Historical data of FIIs listed in B3 between 2020 and 2024 are included, with minimum liquidity of R$ 1 million/day. The results demonstrate the viability of the solution of Learned by Reforço Profundo, embora exatas solutions ainda presentem better results in the short term.
 
+**Keywords**: Portfolio optimization. Modern Portfolio Theory. Real Estate Investment Trusts. Artificial Intelligence. Deep Reinforcement Learning.
 
-## Interface Streamlit
-<img width="1886" height="362" alt="image" src="https://github.com/user-attachments/assets/50d36987-c171-4b42-b338-1fdc790b2641" />
-
-<img width="1853" height="793" alt="image" src="https://github.com/user-attachments/assets/3e2e3191-cf33-4896-919a-e8099aca68e0" />
-
-<img width="1876" height="823" alt="image" src="https://github.com/user-attachments/assets/25ddc0a2-7120-4154-8833-cc93d009d355" />
-
-<img width="1513" height="243" alt="image" src="https://github.com/user-attachments/assets/675cd196-dd52-4400-8a62-74b0065c0afc" />
+### Dados  
+Dados de Fundos de Investimento Imobiliário (FIIs) listados na B3 (2020-2025) e com média de liquidez diária superior a R$ 1 milhão: 
+- [Base Cota Ajustada.csv](https://github.com/FII-MARKOTIWZ-REFORCO/RCS/raw/refs/heads/main/Base%20Cota%20Ajustada.csv) (valores de cotas ajustados por rendimentos e desdobramentos, utilizada para o cálculo dos retornos diários)
+- [Base Cota Mercado.csv](https://github.com/FII-MARKOTIWZ-REFORCO/RCS/raw/refs/heads/main/Base%20Cota%20Mercado.csv) (cotações de fechamento de mercado, para o cálculo das covariâncias e volatilidades)
