@@ -1,4 +1,4 @@
-# Um Comparativo dos Métodos de Markotiwz e de Aprendizado por Reforço Profundo na Otimização de Carteiras de Fundos Imobiliários
+# [Um Comparativo dos Métodos de Markotiwz e de Aprendizado por Reforço Profundo na Otimização de Carteiras de Fundos Imobiliários](https://github.com/FII-MARKOTIWZ-REFORCO/RCS/blob/main/RCS_FUNDOS_2026_MARCOS_ROGERIO.pdf)
 
 ### RESUMO
 A otimização de carteiras tem por objetivo equilibrar riscos e retornos de diferentes ativos compondo uma carteira eficiente sendo essencial para gestão de investimentos. No mercado brasileiro de fundos imobiliários (FIIs), essa é uma tarefa complexa devido à heterogeneidade de liquidez e à influência de fatores macroeconômicos. Este trabalho compara e desenvolve a otimização de carteiras a partir de duas abordagens: o clássico modelo de Markowitz e o Aprendizado Profundo com Reforço (Deep Reinforcement Learning – DRL). São empregados dados históricos de FIIs listados na B3 entre 2020 e 2024, com liquidez mínima de R$ 1 milhão/dia. Os resultados evidenciam a viabilidade da solução de Aprendizado por Reforço Profundo, embora soluções exatas ainda apresentem resultados melhores no curto prazo. 
